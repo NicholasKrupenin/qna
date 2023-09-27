@@ -131,6 +131,8 @@ GEM
       thor (>= 0.14, < 2.0)
     json (2.6.3)
     language_server-protocol (3.17.0.3)
+    launchy (2.5.2)
+      addressable (~> 2.8)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -158,6 +160,8 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
+    nokogiri (1.15.4-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
     octicons (19.6.0)
@@ -344,6 +348,7 @@ GEM
     zeitwerk (2.6.11)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
@@ -359,6 +364,7 @@ DEPENDENCIES
   i18n-debug
   jbuilder (~> 2.7)
   jquery-rails
+  launchy
   listen (~> 3.3)
   octicons_helper
   octokit (~> 5.0)
